@@ -19,8 +19,16 @@ li{
     list-style: none;
 }
 
+h1{
+    color: white;
+}
+
 h2{
     color: white;
+}
+
+input{
+    outline: none;
 }
 
 body {
@@ -45,4 +53,36 @@ main{
     align-items: center;
     height: 90vh;
     overflow: hidden;
+}
+
+.main-nav_actual-container{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* opacity: 0.1; */
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.main-nav_container{
+    display: flex;
+}
+
+.main-nav_item{
+    padding: 0 2rem 0;
+}
+
+.main-div_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
