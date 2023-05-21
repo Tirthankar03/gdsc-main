@@ -1,0 +1,48 @@
+
+*{
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p{
+    font-size: larger;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    color: white;
+}
+
+body {
+    display: grid;
+    /* this 10 rem will remind me of that grid property */
+    /* grid-template-rows: 3.625rem auto; */
+    grid-template-rows: 5.8rem auto;
+    grid-template-areas: "nav" "main";
+    /* overflow: scroll; */
+    font-family: "Poppins", sans-serif;
+    background: black;
+}
+
+.main-nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
